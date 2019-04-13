@@ -47,7 +47,7 @@ while (1):
 
         #update listener
         if(result != history):
-            print("-- UPDATE DETECTED --")
+            print("-- EVENT SUCCESS OR UPDATE DETECTED --")
             for data in result:
                 for dataHistory in history:
                     if (data[0] == dataHistory[0]):
